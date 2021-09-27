@@ -1,0 +1,33 @@
+.banner {
+  object-fit: contain;
+  color: white;
+  height: 448px;
+}
+.banner-content {
+  margin-left: 30px;
+  padding-top: 140px;
+  height: 190px;
+}
+.banner-title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+  cursor: pointer;
+}
+.banner-button{
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.2vw;
+  background-color: rgba(51,51,51,0.5);
+  margin: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.banner-button:hover{
+  color: rgb(51, 47, 47);
+  background-color: aliceblue;
+  transition: all 0.2s;
+}
